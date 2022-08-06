@@ -1,20 +1,21 @@
-header.border-bottom.py-2
-	nav.navbar.navbar-expand-lg
+header.border-bottom
+	nav.navbar.navbar-expand-lg.p-0
 		div.container-xl
-			img.logo-main(src="images/common/logo.svg", alt="logo" )
+			a(href="/")
+				img.logo-main(src="images/common/logo.svg", alt="logo" )
 			button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarContent' aria-controls='navbarContent' aria-expanded='false')
 				span.navbar-toggler-icon
 			div.collapse.navbar-collapse.ms-5(id='navbarContent')
 				ul.navbar-nav.me-auto.text-dark.text-md-center.text-center
 					li.nav-item
-						a(href="").nav-link Головна
+						a.py-3(href="").nav-link.link-current Головна
 					li.nav-item
-						a(href="").nav-link Портфолио
+						a.py-3(href="").nav-link Портфолио
 					li.nav-item
-						a(href="").nav-link Контакты
+						a.py-3(href="").nav-link Контакты
 
 				ul.navbar-nav.ms-auto.text-muted.text-md-center.text-center
 					li.nav-item
-						a(href="").nav-link info@devstudio.com
+						a(href="\"info@devstudio.com").nav-link info@devstudio.com
 					li.nav-item
-						a(href="").nav-link +38 096 111 11 11
+						a(href="tel:+38 096 111 11 11").nav-link +38 096 111 11 11

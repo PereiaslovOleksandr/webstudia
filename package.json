@@ -81,6 +81,7 @@
 	},
 	"dependencies": {
 		"bootstrap": "^5.2.0-beta1",
+		"bootstrap-icons": "^1.9.1",
 		"focus-visible": "^5.2.0",
 		"normalize.css": "^8.0.1",
 		"smart-grid": "^2.1.2",
